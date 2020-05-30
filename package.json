@@ -1,0 +1,24 @@
+{
+	"name": "parcel-template",
+	"version": "1.0.0",
+	"description": "parcel-template by 1mind",
+	"main": "/src/index.pug",
+	"scripts": {
+		"dev": "parcel serve src/*.pug --no-cache --no-source-maps --port 9000 -d ./dist/dev/",
+		"build": "parcel src/*.pug --no-cache --no-source-maps -d ./dist/build/",
+		"serve": "parcel src/*.pug --no-cache --no-source-maps -d ./docs/"
+	},
+	"author": "b1Mind",
+	"devDependencies": {
+		"autoprefixer": "^9.8.0",
+		"parcel-bundler": "^1.12.4",
+		"pug": "^3.0.0",
+		"autoprefix": "^1.0.1",
+		"node-sass": "^4.14.1",
+		"parcel-plugin-static-files-copy": "^2.3.1",
+		"postcss": "^7.0.31"
+	},
+	"dependencies": {
+		"src": "^1.1.2"
+	}
+}
