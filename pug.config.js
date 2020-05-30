@@ -5,7 +5,4 @@ module.exports = {
 	plugins: {
 		postcss,
 	},
-	locals: {
-		hello: 'world',
-	},
 }
