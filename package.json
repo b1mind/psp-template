@@ -6,10 +6,10 @@
 	"main": "/dist/index.pug",
 	"source": "/src/index.pug",
 	"scripts": {
-		"dev": "parcel serve src/*.pug --no-cache --no-source-maps --port 9000 -d ./dist/dev/",
-		"build": "parcel src/*.pug --no-cache --no-source-maps -d ./dist/build/",
-		"serve": "parcel src/*.pug --no-cache --no-source-maps -d ./public/",
-		"github": "parcel src/*.pug --public-url ./ --no-cache --no-source-maps -d ./docs/"
+		"dev": "parcel serve src/*.pug --no-cache --no-source-maps --port 9001 -d ./dist/dev/",
+		"build": "parcel build src/*.pug --no-cache --no-source-maps -d ./dist/build/",
+		"serve": "parcel build src/*.pug  --no-cache --no-source-maps --no-content-hash -d ./public/",
+		"github": "parcel build src/*.pug  --no-cache --no-source-maps --public-url ./ --no-content-hash -d ./docs/"
 	},
 	"devDependencies": {
 		"parcel-bundler": "^1.12.4",
@@ -27,9 +27,9 @@
 			"autoprefixer": {
 				"grid": "autoplace",
 				"overrideBrowserslist": [
-					"> 2%",
-					"last 5 versions",
-					"ie >= 9"
+					"> 1%",
+					"last 2 versions",
+					"ie >= 11"
 				]
 			}
 		}

@@ -31,13 +31,40 @@ img {
 	max-width: 100%;
 }
 
+ul {
+	list-style: none;
+}
+
 ::placeholder {
 	color: red;
 }
 
+.wrap {
+	max-width: 1199px;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
 .grid {
 	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
 }
+
 .flex {
 	display: flex;
+	justify-content: space-between;
+}
+
+.navMain {
+	li {
+		padding: 1em;
+		display: inline-block;
+	}
 }
