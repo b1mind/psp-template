@@ -14,9 +14,13 @@ npm install
 
 You can run the following scripts
 
-```js
-npm run dev // for testing on http://localhost:9001
-npm run build // build ./dist/build/
-npm run serve // for netlify or other static host exports /public/
-npm run github // for github pages exports /docs/
+```
+# for testing on http://localhost:9001
+npm run dev
+# build ./dist/build/
+npm run build
+# for netlify or other static host exports /public/
+npm run export
+# for github pages exports /docs/
+npm run github
 ```

@@ -8,7 +8,7 @@
 	"scripts": {
 		"dev": "parcel serve src/*.pug --no-cache --no-source-maps --port 9001 -d ./dist/dev/",
 		"build": "parcel build src/*.pug --no-cache --no-source-maps -d ./dist/build/",
-		"serve": "parcel build src/*.pug  --no-cache --no-source-maps --no-content-hash -d ./public/",
+		"export": "parcel build src/*.pug  --no-cache --no-source-maps --no-content-hash -d ./public/",
 		"github": "parcel build src/*.pug  --no-cache --no-source-maps --public-url ./ --no-content-hash -d ./docs/"
 	},
 	"devDependencies": {
