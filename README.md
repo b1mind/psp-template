@@ -3,7 +3,7 @@
 _I have included gsap3 and font awesome_
 
 ```
-npmx degit "b1m1nd/psp-template" app-name
+npx degit "b1m1nd/psp-template" app-name
 ```
 
 ...then install dependencies
