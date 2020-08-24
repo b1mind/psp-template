@@ -14,7 +14,10 @@ $minWidthSml: 420px;
 	box-sizing: border-box;
 }
 
-html,
+html {
+	min-height: 100%;
+}
+
 body {
 	height: 100%;
 	min-height: 100%;
