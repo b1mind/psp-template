@@ -12,12 +12,12 @@
 		"github": "parcel build src/*.pug  --no-cache --no-source-maps --public-url ./ --no-content-hash -d ./docs/"
 	},
 	"devDependencies": {
-		"parcel-bundler": "^1.12.4",
-		"autoprefixer": "^9.8.0",
-		"pug": "^3.0.0",
+		"autoprefixer": "^9.8.6",
 		"node-sass": "^4.14.1",
-		"parcel-plugin-static-files-copy": "^2.3.1",
-		"postcss": "^7.0.31"
+		"parcel-bundler": "^1.12.4",
+		"parcel-plugin-static-files-copy": "^2.5.0",
+		"postcss": "^7.0.32",
+		"pug": "^3.0.0"
 	},
 	"dependencies": {
 		"src": "^1.1.2"
