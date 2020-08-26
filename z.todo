@@ -2,3 +2,5 @@ New Todo:
   ☐ need to add merge media query postcss plugin
 Future:
   ☐ upgrade to Parcel2
+  ☐ get postcss-combine-media-query working
+  ☐ get public static copy working
