@@ -1,5 +1,5 @@
 const ghpages = require('gh-pages')
-//You must add your own info and repo
+//You must add your own info and repo name change < > items
 ghpages.publish(
 	'./dist/build/',
 	{

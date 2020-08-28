@@ -55,4 +55,6 @@ git remote add origin https://github.com/<your-git>/<repo-name>.git
 git push -u origin <your-branch-name>
 ```
 
+Finally configure your `/scripts/edit_deploy.js` and rename to `deploy.js`
+
 List/Links of used libs coming soon.
