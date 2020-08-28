@@ -7,7 +7,7 @@
 	"source": "/src/index.pug",
 	"scripts": {
 		"dev": "parcel serve src/*.pug --no-cache --no-source-maps --port 9001 -d ./dist/dev/",
-		"build": "parcel build src/*.pug --no-cache --no-source-maps -d ./dist/build/",
+		"build": "parcel build src/*.pug --no-cache --no-source-maps --public-url ./ -d ./dist/build/",
 		"export": "parcel build src/*.pug --no-cache --no-source-maps -d ./public/",
 		"deploy": "npm run build && node ./scripts/deploy.js",
 		"github": "parcel build src/*.pug --no-cache --no-source-maps --public-url ./ -d ./docs/"
