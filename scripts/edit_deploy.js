@@ -1,13 +1,13 @@
 const ghpages = require('gh-pages')
-
+//You must add your own info and repo
 ghpages.publish(
 	'./dist/build/',
 	{
 		branch: 'master',
-		repo: 'https://github.com/b1m1nd/psp-template',
+		repo: '<your-githubrepo.git>',
 		user: {
-			name: 'b1m1nd',
-			email: 'brent@1mindsolutions.com',
+			name: '<Your-username>',
+			email: '<Your-github-emailId>',
 		},
 	},
 	() => {
