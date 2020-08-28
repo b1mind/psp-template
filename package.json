@@ -9,14 +9,17 @@
 		"dev": "parcel serve src/*.pug --no-cache --no-source-maps --port 9001 -d ./dist/dev/",
 		"build": "parcel build src/*.pug --no-cache --no-source-maps -d ./dist/build/",
 		"export": "parcel build src/*.pug  --no-cache --no-source-maps --no-content-hash -d ./public/",
-		"github": "parcel build src/*.pug  --no-cache --no-source-maps --public-url ./ --no-content-hash -d ./docs/"
+		"deploy": "npm run github && node ./scripts/b1mind_deploy.js",
+		"github": "parcel build src/*.pug  --no-cache --no-source-maps --public-url ./ --no-content-hash -d ./dist/public/"
 	},
 	"devDependencies": {
 		"autoprefixer": "^9.8.6",
 		"node-sass": "^4.14.1",
 		"parcel-bundler": "^1.12.4",
+		"postcss-combine-media-query": "^1.0.1",
 		"parcel-plugin-static-files-copy": "^2.5.0",
 		"postcss": "^7.0.32",
+		"gh-pages": "^3.1.0",
 		"pug": "^3.0.0"
 	},
 	"dependencies": {
@@ -24,6 +27,7 @@
 	},
 	"postcss": {
 		"plugins": {
+			"postcss-combine-media-query": {},
 			"autoprefixer": {
 				"grid": "autoplace",
 				"overrideBrowserslist": [
