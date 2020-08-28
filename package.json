@@ -8,9 +8,9 @@
 	"scripts": {
 		"dev": "parcel serve src/*.pug --no-cache --no-source-maps --port 9001 -d ./dist/dev/",
 		"build": "parcel build src/*.pug --no-cache --no-source-maps -d ./dist/build/",
-		"export": "parcel build src/*.pug  --no-cache --no-source-maps --no-content-hash -d ./public/",
+		"export": "parcel build src/*.pug --no-cache --no-source-maps --no-content-hash -d ./public/",
 		"deploy": "npm run github && node ./scripts/b1mind_deploy.js",
-		"github": "parcel build src/*.pug  --no-cache --no-source-maps --public-url ./ --no-content-hash -d ./dist/public/"
+		"github": "parcel build src/*.pug --no-cache --no-source-maps --public-url ./ --no-content-hash -d ./dist/public/"
 	},
 	"devDependencies": {
 		"autoprefixer": "^9.8.6",
