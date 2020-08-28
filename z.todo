@@ -1,9 +1,10 @@
 Todo:
-  ✔ need to test combine media query plugin @done(20-08-27 23:01)
-  ✔ add full mobile nav @done(20-08-27 23:01)
-  ✔ npm github-pages working with 2branches' @done(20-08-27 22:42)
-
-Future:
   ☐ upgrade to Parcel2
-  ✔ get postcss-combine-media-query working @done(20-08-26 09:41)
   ☐ get public static copy working
+  ☐ simplify scripts (build/gh-pages and public)
+
+Archive:
+  ✔ need to test combine media query plugin @done(20-08-27 23:01) @project(Todo)
+  ✔ add full mobile nav @done(20-08-27 23:01) @project(Todo)
+  ✔ npm github-pages working with 2branches' @done(20-08-27 22:42) @project(Todo)
+  ✔ get postcss-combine-media-query working @done(20-08-26 09:41) @project(Future)

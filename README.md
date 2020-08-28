@@ -17,10 +17,14 @@ You can run the following scripts
 ```
 # for testing on http://localhost:9001
 npm run dev
+
 # build ./dist/build/
 npm run build
+
 # for netlify or other static host exports /public/
 npm run export
-# for github pages exports /docs/
-npm run github
+
+// Must have ./scripts/deploy.js configured
+# for github pages exports ./dist/public/
+npm run deploy
 ```
