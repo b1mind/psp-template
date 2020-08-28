@@ -12,7 +12,7 @@ npx degit "b1m1nd/psp-template#develop" app-name
 npm install
 ```
 
-You can run the following scripts
+### Run scripts
 
 ```
 # for testing on http://localhost:9001
@@ -24,7 +24,35 @@ npm run build
 # for netlify or other static host exports root:/public/
 npm run export
 
-// Must have ./scripts/deploy.js configured
-# for github pages exports ./dist/public/
+# for for simple github pages export ./docs/
+npm run github
+```
+
+### gh-pages deploy
+
+_you can also use gh-pages lib but must configure_
+
+```
+# for use with master branch github pages
 npm run deploy
 ```
+
+First create a develop branch and github repo (you can name it anything)
+rename the `< >` 's with your info.
+
+```
+git init
+git branch <your-branch-name>
+git checkout <your-branch-name>
+```
+
+Then commit and and set origin
+
+```
+git add .
+git commit -m "a commit message"
+git remote add origin https://github.com/<your-git>/<repo-name>.git
+git push -u origin <your-branch-name>
+```
+
+List/Links of used libs coming soon.

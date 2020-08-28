@@ -2,7 +2,10 @@ Todo:
   ☐ upgrade to Parcel2
   ☐ get public static copy working
   ☐ export/public folder structure (need plugin?)
-  ☐ work on readme for scripts
+  ☐ better ReadMe
+    ☐ work on readme for scripts
+    ☐ better instructions for use
+    ☐ inclue links
 
 Archive:
   ✔ simplify scripts (build/gh-pages and public) @done(20-08-28 12:44) @project(Todo)
