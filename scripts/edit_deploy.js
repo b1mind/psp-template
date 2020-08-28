@@ -11,6 +11,6 @@ ghpages.publish(
 		},
 	},
 	() => {
-		console.log('Deploy Complete!')
+		console.log('\x1b[1m\x1b[33m Github Pages Deploy Complete! \x1b[0m')
 	},
 )
