@@ -20,7 +20,7 @@
 		"parcel-plugin-static-files-copy": "^2.5.0",
 		"postcss": "^7.0.35",
 		"postcss-combine-media-query": "^1.0.1",
-		"pug": "^3.0.0"
+		"pug": "^3.0.1"
 	},
 	"dependencies": {
 		"src": "^1.1.2"
